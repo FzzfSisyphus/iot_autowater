@@ -1,15 +1,21 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<template>ellowWorld.vue
+  <div>
+    <img class='gptpic' alt="Vue logo" src="./assets/pic.png">
+    <h2>group 2 agriculture </h2>
+  </div>
+  <RainFall/>
+  <WaterInfo/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RainFall from './components/RainFall.vue';
+import WaterInfo from './components/WaterInfo.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    RainFall,
+    WaterInfo,
   }
 }
 </script>
@@ -23,4 +29,8 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-</style>
+.gptpic{
+  width: 20%;
+  height: 20%;
+}
+</style>./components/RainFall.vue
